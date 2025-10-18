@@ -2,7 +2,7 @@
 
 ## 1. Initial run
 
-**Code**: [countries-initial.py](countries-initial.py)
+**Code**: [countries-initial.py](countries_initial.py)
 
 **Screen shot of output**
 
@@ -12,7 +12,7 @@
 
 ## 2. Final run
 
-**Code**: [countries-final.py](countries-final.py)
+**Code**: [countries-final.py](countries_final.py)
 
 **Output**
 
