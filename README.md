@@ -1,7 +1,7 @@
 # Python Web API Examples
 
-## APIS
+## Approved API Examples
 
-- Countries
-- News
-- Open-AI
+1. [Canvas](Canvas/canvas.py)
+2. [News](News/news.py)
+3. [OpenAI](Open-AI/paraphraser.py)

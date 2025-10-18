@@ -1,16 +1,16 @@
-""""Open AI example code"""
+""""OpenAI example code"""
 
 import os
 
 # For Open AI, I'll alow you to use the OpenAI library in place of requests
 from openai import OpenAI
 
-
 # Read my API key from an environment variable
 # ex: export MY_OPENAI_KEY=abcdefgthismyfakekey123
 api_key = os.environ["MY_OPENAI_KEY"]
 
 # Initialize the API client with my project, org, and API key
+# Note: These will be unique to your account
 client = OpenAI(
     api_key=api_key,
     organization='org-oLSiLGf4uvhkmhyi3zUWtGGc',
@@ -57,5 +57,3 @@ completion = client.chat.completions.create(
 # Print the output
 print("")
 print(completion.choices[0].message.content)
-# print("")
-# print(completion)
