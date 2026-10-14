@@ -1,26 +1,9 @@
 # Python Web API example: Countries
 
-## 1. Initial run
+## 1.  Run
 
-**Code**: [countries-initial.py](countries_initial.py)
+**Code**: [countries.py](countries.py)
 
-**Screen shot of output**
+**output**
 
-![alt text](image-1.png)
-
-**Formatted output**: [countries_data-output.py](countries_data-output.py)
-
-## 2. Final run
-
-**Code**: [countries-final.py](countries_final.py)
-
-**Output**
-
-```
-What country would like to search for? china
-Found 4 countries
-Taiwan
-Hong Kong
-China
-Macau
-```
+[countries_response.json](countries_response.json)
